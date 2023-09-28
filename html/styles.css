@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #56f5ed;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    text-align: center;
+    background-color: #51a895a8;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos das Seções */
+section {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para as Listas de Habilidades */
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.skills ul li {
+    background-color: #f1f1f1;
+    color: #058079;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para o Contato */
+.contact p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #00ffd5;
+    margin-right: 10px;
+}
+
+.contact a:hover {
+    text-decoration: underline; }
